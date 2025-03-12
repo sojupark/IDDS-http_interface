@@ -1,0 +1,209 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+/** {box-sizing: border-box;}*/
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+	color:#99004C;
+  position: fixed;
+	top: 10px;
+  //bottom: 10px;
+  right: 15px;
+  id #ffcccc;
+  z-index: 5;
+	width:40%;
+	background-color:#D3D3D3;
+	//opacity: 0.5;
+	padding:10px 10px 10px 10px;
+	overflow-y:scroll;
+}
+
+#myExeForm {
+	position:relative;
+	bottom:100px;
+	display:none;
+  border: 5px dotted red;
+	padding:10px 10px 10px 10px;
+	background-color:gray;
+	//z-index:1;
+}
+
+#myExeForm>label {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.myExe_ct {
+	font-weight: normal;
+	color:black;
+}
+
+.form-container  {
+	height:80vh;
+}
+.form-container .form_set_inner .form_set_inner_val {
+	display:inline;
+
+}
+/*.form-container .form_set_inner textarea {
+	margin-right:5px;
+}*/
+
+.form-container textarea {
+	/*padding:1px 1px;*/
+	height:3vh;
+	width:20vw;
+}
+
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1px 50px;
+  border: none;
+  cursor: pointer;
+  /*width: 100%;*/
+  margin-bottom:1px;
+  opacity: 0.6;
+	font-size: 15px
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+.form-container .del{
+  background-color: blue;
+}
+
+.form-container .go{
+	height:30px;
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+.form-inline-popup {
+	display:none;
+}
+
+.myframeheader {
+  	opacity: 0.8;
+	position:fixed;
+	display:flex;
+}
+
+.open-button {
+    /*	font-size:16px;*/
+      background-color: #555;
+      color: white;
+      /*padding: 10px 20px;*/
+      border: none;
+      cursor: pointer;
+      opacity: 0.8;
+     /* position: fixed;
+      bottom: 23px;
+      right: 28px;
+      width: 280px;*/
+}
+    
+.myExe_ct label {
+        font-size: 20px;
+}
+    
+.myExe_ct input{
+  font-size: 20px;
+}
+
+#myInput {
+    background-image: url('/css/icons8-search-50.png');
+    background-position:1px 1px;
+    background-size:6% 90%;
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 40px;
+    /*font-size:15px;
+    margin-bottom: 12px;*/
+    border: 1px solid #ddd;
+}
+    
+
+
+/* list */
+
+#mytablelist {
+    border-collapse: collapse;
+    width:100%;
+    border: 1px solid #82b4e1;
+}
+
+#mytablelist th {
+    width:50%;	
+}
+
+#mytablelist tbody tr:hover {
+    background-color: #a6a6a6;
+    cursor: pointer;
+}
+
+#mytablelist thead {
+    background-color: #dcdcdc;
+}
+
+/*#mytablelist tr {
+    border-bottom: 1px solid #ddd;
+}*/
+
+
+#mytablelist td {
+      /*position: relative;*/
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.start_time {
+    font-size:13px;	
+}
+.end_time {
+    font-size:13px;	
+}
+.next_time {
+    font-size:13px;	
+}
+.light {
+    width:20%;
+}
+.close {
+    position:absolute;
+    right: 25px;
+    color: #000;
+    fint-size: 35px;
+    font-weight:bold;	
+}
+.close:hover,.close:focus {
+    color:red;
+    cursor:pointer;
+}
+
+#myProgress {
+    display:none;
+    position:fixed;
+    z-index: 9;
+    border: 3px solid black;
+    top:500px;
+    left:400px;
+    width: 50%;
+    background-color: grey;
+  }
+  
+#myBar {
+  width: 30%;
+  height: 30px;
+  background-color: blue;
+}

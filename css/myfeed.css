@@ -1,0 +1,69 @@
+body {
+    font-family: Arial;
+    overflow: auto;
+    /*overflow-x:hidden;
+    overflow-y:hidden;*/
+}
+
+#myhead {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    padding: 1px 14px;
+}
+#myselbody {
+    overflow-x:scroll;
+    overflow-y:auto;
+}
+
+iframe {
+    //display:block;
+    height:88vh;
+    width:99vw;
+    //overflow: scroll;
+    /*margin: 20;*/
+
+}
+/* Style the tab */
+.mytab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.mytab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.mytab button:hover {
+    background-color: #ddd;
+        color: #3333ff;
+        font-weight: bold;
+}
+
+/* Create an active/current tablink class */
+.mytab button.active {
+    background-color: #ccc;
+        color: #3333ff;
+        font-weight: bold;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/*.td{
+    word-break: break-all;
+    word-wrap: break-word;
+}*/

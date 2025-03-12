@@ -1,0 +1,33 @@
+table {
+        font-family: Arial, Helvetica, snas-serif;
+        border-collapse: collapse;
+        width: 100%;
+}
+
+table td, th {
+        border: 1px solid #ddd;
+        padding: 8px;
+}
+table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #0080FF;
+        color: #ffffff;
+}
+
+table .header_main {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4169E1;
+        color: #ffffff;
+}
+
+table .header_sub {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #AFEEEE;
+        color: #191970;
+}
